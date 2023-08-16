@@ -20,7 +20,7 @@ function DescripcionGeneral() {
                 <div className='color1'><p className='conoce-peko'>¿Peko?</p>
                     <div className='img1'><img src={conocenos} alt="" /></div>
                 </div>
-                <div className='text-pek'>Los textos funcionales son textos en donde predomina la función apelativa del lenguaje. Es decir, se dirigen a un receptor en forma directa, clara y precisa para indicarle los pasos o acciones a seguir para realizar una o varias acciones.</div>
+                <div className='text-pek'>Peko es una cafetería elegante e innovadora que ofrece una experiencia única a sus clientes. Puedes disfrutar de un café de calidad, preparado con granos seleccionados y tostados en el momento, acompañado de deliciosos pasteles y bocadillos. Peko también cuenta con un espacio acogedor y moderno, donde puedes relajarte, trabajar o socializar, mientras escuchas música ambiental y admiras el arte local. Peko es más que una cafetería, es un lugar para inspirarte y deleitarte.</div>
                 <div className='conoce2'>
                     <div className='color2'>
                         <div className='img2'><img src={conocenos2} alt="" /></div>
