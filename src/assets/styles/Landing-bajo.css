@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-around;
     margin-bottom: 1%;
-    
+
 }
 
 .fondoimg {
@@ -23,40 +23,47 @@
     height: 860px;
     background-image: url("../images/taza2.jpg");
 }
-.td-eu{
+
+.td-eu {
     display: flex;
 }
-.td-col{
+
+.td-col {
     width: 60%;
     height: 500px;
 }
-.td-col-1{
+
+.td-col-1 {
     display: flex;
-    
+
     background-color: #9390E0;
     width: 80%;
     height: 300px;
 }
-.td-img{
+
+.td-img {
     margin-top: 10%;
     margin-left: 10%;
     width: 35%;
 }
-.td-title{
+
+.td-title {
     padding-top: 10%;
-    color: #D44228;
+    color: #eb5338;
     font-size: 70px;
     font-family: Lilita One;
     font-weight: 400;
     text-align: center;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.61);
+    text-shadow: 5px 5px 3px rgba(66, 66, 66, 0.281);
     margin-bottom: 10%;
 }
-.td-desc{
+
+.td-desc {
     font-family: Life Savers;
     font-size: 20px;
 }
-.td-right{
+
+.td-right {
     text-align: center;
-    width: 40%;
+    width: 40%; 
 }
