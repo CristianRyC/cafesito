@@ -40,3 +40,28 @@
   width: 40%;
   height: 40%;
 }
+
+
+.container-carusel {
+  display: flex;
+  gap: 10px;
+  margin-top: 150px;
+margin-bottom: 150px;
+}
+
+.card {
+  background-color: #fff;
+  height: 100px;
+  width: 100px;
+  flex: 1;
+  border-radius: 16px;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card:hover {
+  flex: 2;
+  background-color: #b8b8b8;
+}
