@@ -1,13 +1,13 @@
-import ScrollToTop from "react-scroll-to-top";
 import "../../assets/styles/InfoFooter.css";
 
+import { AiOutlineHeart } from "react-icons/ai";
 function InFooter() {
     return (
         <>
             <div>
                 <div className="td-im">
                     <p className="txt-im">
-                        Para ti
+                        Para ti <AiOutlineHeart></AiOutlineHeart>
                     </p>
                     <p className="txt-im2" >
                         ¡Bienvenidos a nuestra cafetería! Nos complace tenerlos aquí y esperamos que disfruten de nuestro café y comida.
@@ -16,9 +16,6 @@ function InFooter() {
                         ¡Gracias por elegirnos y esperamos verlos pronto!
                     </p>
                 </div>
-            </div>
-            <div className="App">
-                <ScrollToTop smooth color="#000" />
             </div>
         </>
     );

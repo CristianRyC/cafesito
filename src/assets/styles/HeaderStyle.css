@@ -60,3 +60,19 @@ h1 {
   list-style: none;
   text-decoration: none;
 }
+
+@media (max-width:768px) {
+  .boton {
+    font-size: 20px;
+  }
+  .navbar {
+    display: flex;
+    justify-content: column;
+    background-color: #333333;
+    color: white;
+  }
+  h1 {
+    font-size: 20px;
+    padding-top: 25%;
+  }
+}

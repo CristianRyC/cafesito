@@ -1,10 +1,11 @@
-import '../../assets/styles/HeaderStyle.css'
-import Logo from "../../assets/images/LogoPeko.png"
 import { useState } from 'react';
+import { Link } from "react-router-dom";
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Modal from 'react-bootstrap/Modal';
-import { Link } from "react-router-dom";
+import ScrollToTop from "react-scroll-to-top";
+import Logo from "../../assets/images/LogoPeko.png"
+import '../../assets/styles/HeaderStyle.css'
 
 function Header() {
   const [show, setShow] = useState(false);
@@ -63,6 +64,10 @@ function Header() {
           </Button>
         </Modal.Footer>
       </Modal>
+
+      <div className="App">
+                <ScrollToTop smooth color="#451c04" />
+            </div>
     </>
   );
 }
