@@ -5,7 +5,7 @@ import { RiWhatsappFill, RiInstagramFill } from "react-icons/ri";
 function Tabla() {
     return (
         <>
-            <div id="footer">
+            <div id="footer" className='footer'>
                 <div class="container">
                     <div class="row text-center text-xs-center text-sm-left text-md-left">
                         <div class="col-xs-12 col-sm-4 col-md-4">
@@ -35,15 +35,15 @@ function Tabla() {
                                 <li class="list-inline-item"><a href="http://instagram.com"><div className='icon'><RiInstagramFill /></div></a></li>
                                 <li class="list-inline-item"><a href="http://web.whatsapp.com"><div className='icon'><RiWhatsappFill /></div></a></li>
                             </ul>
-                            <hr/>
+                            <hr />
                         </div>
-                        <hr/>
+                        <hr />
                     </div>
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
                             <p id='foot'>Con amor y un buen cafe  [Peko]</p>
                         </div>
-                        <hr/>
+                        <hr />
                     </div>
                 </div>
             </div>

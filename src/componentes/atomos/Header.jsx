@@ -10,7 +10,7 @@ function Header() {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-  
+
   return (
     <>
       <div className="navbar">
@@ -21,8 +21,8 @@ function Header() {
 
         <div>
           <Link to="/" className='sinlinea'><button className='boton'>HOME</button></Link>
-          <Link to="/card" className='sinlinea'><button className='boton'>CONOCENOS</button></Link>
-          <a src="#footer" className='sinlinea'><button className='boton'>CONTACTO</button></a>
+          <a href="#conocenos" className='sinlinea'><button className='boton'>CONOCENOS</button></a>
+          <a href="#footer" className='sinlinea'><button className='boton'>CONTACTO</button></a>
           <button onClick={handleShow} className='boton'>REGISTRAR</button>
         </div>
       </div>
@@ -34,17 +34,18 @@ function Header() {
         <Modal.Body>
           <Form>
             <Form.Group className="mb-1" controlId="exampleForm.ControlInput1">
-              <Form.Label>Email address</Form.Label>
+              {/* <Form.Label>:)</Form.Label> */}
               <Form.Control
                 type="text"
                 placeholder="Nombre"
                 autoFocus
               />
+              <br />
               <Form.Control
                 type="telephone"
                 placeholder="Telefono"
                 autoFocus
-              />
+              /> <br />
               <Form.Control
                 type="email"
                 placeholder="Correo"

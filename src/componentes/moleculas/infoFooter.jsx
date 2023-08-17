@@ -1,4 +1,4 @@
-
+import ScrollToTop from "react-scroll-to-top";
 import "../../assets/styles/InfoFooter.css";
 
 function InFooter() {
@@ -7,13 +7,18 @@ function InFooter() {
             <div>
                 <div className="td-im">
                     <p className="txt-im">
-                        FRESH FOOD EVERYDAY
+                        Para ti
                     </p>
                     <p className="txt-im2" >
-                    Our Cafetary is a family-owned restaurant that has been proudly serving around the 1940s located on the corner of Broadway and West 112th Street in New York, 
-
+                        ¡Bienvenidos a nuestra cafetería! Nos complace tenerlos aquí y esperamos que disfruten de nuestro café y comida.
+                        Nuestro objetivo es ofrecerles una experiencia única y memorable cada vez que nos visiten. Si tienen alguna pregunta o inquietud,
+                        no duden en hacérnoslo saber.
+                        ¡Gracias por elegirnos y esperamos verlos pronto!
                     </p>
                 </div>
+            </div>
+            <div className="App">
+                <ScrollToTop smooth color="#000" />
             </div>
         </>
     );

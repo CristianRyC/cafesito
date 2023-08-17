@@ -58,7 +58,7 @@ function DescripcionGeneral() {
                     </div>
                 </div>
 
-                <div className='conocenos'>
+                <div className='conocenos' id="conocenos">
                     <div className='mision'>
                         <div className='titles'><p>Mision</p></div>
                         <div className='descrip-txt'><p>Ofrecer a nuestros clientes una experiencia única de degustación de cafés de alta calidad, acompañados de deliciosos productos de repostería y bollería, en un ambiente acogedor y sofisticado.</p></div>
