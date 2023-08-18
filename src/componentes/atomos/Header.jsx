@@ -11,7 +11,13 @@ function Header() {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+  const openNav = () => {
+    document.getElementById("mySidepanel").style.width = "250px";
+}
 
+const closeNav = () => {
+    document.getElementById("mySidepanel").style.width = "0";
+}
   return (
     <>
       <div className="navbar">
@@ -66,8 +72,8 @@ function Header() {
       </Modal>
 
       <div className="App">
-                <ScrollToTop smooth color="#451c04" />
-            </div>
+        <ScrollToTop smooth color="#451c04" />
+      </div>
     </>
   );
 }

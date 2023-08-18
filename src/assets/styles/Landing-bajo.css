@@ -105,3 +105,42 @@
         height: 305px;
     }
   }
+
+  @media screen and (min-width: 390px) and (max-width: 767px){
+    .imgDeco {
+        width: 20%;
+        padding-top: 30%;
+    }
+    
+    .fondoimg {
+        width:50%;
+        height: 400px;
+    }
+    
+    .fondoimg2 {
+        width:50%;
+        height: 400px;
+    }
+    .td-col-1 {
+        width: 80%;
+        height: 100px;
+    }
+    .td-img {
+        margin-top: 10%;
+        width: 50%;
+    }
+    .td-title {
+        padding-top: 10%;
+        font-size: 24px;
+        margin-bottom: 10%;
+    }
+    .td-desc {
+        font-size: 11px;
+        text-align: justify;
+        margin-right: 11px;
+    }
+    .td-col {
+        width: 60%;
+        height: 200px;
+    }
+  }
