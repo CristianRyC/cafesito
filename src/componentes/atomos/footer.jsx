@@ -31,13 +31,41 @@ function Tabla() {
 
                         <div className="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-7">
                             <ul className="list-unstyled list-inline social text-center">
-                                <li className="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                {/*                      <li className="list-inline-item"><a href="http://facebook.com"><i class="fab fa-facebook"></i></a></li>
                                 <li className="list-inline-item"><a href="http://Twitter.com"><div className='icon'><FaTwitter /></div></a></li>
-                                <li className="list-inline-item"><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+                                <li className="list-inline-item"><a href="http://tiktok.com"><i class="fa-brands fa-tiktok"></i></a></li>
                                 <li className="list-inline-item"><a href="http://web.whatsapp.com"><div className='icon'><RiWhatsappFill /></div></a></li>
-                                <li className="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li className="list-inline-item"><a href="http://instagram.com"><i class="fab fa-instagram"></i></a></li> */}
+                                <ul class="wrapper">
+                                    <a href="http://facebook.com">
+                                        <li class="icon facebook">
+                                            <span class="tooltip">Facebook/@pekoOficial</span>
+                                            <span><i class="fab fa-facebook-f"></i></span>
+                                        </li></a>
+                                    <a href="http://twitter.com">
+                                        <li class="icon twitter">
+                                            <span class="tooltip">Twitter/@pekoOficial</span>
+                                            <span><i class="fab fa-twitter"></i></span>
+                                        </li></a>
+                                    <a href="http://tiktok.com">
+                                        <li class="icon tiktok">
+                                            <span class="tooltip">Tiktok/@pekoOficial</span>
+                                            <span><i class="fab fa-tiktok"></i></span>
+                                        </li></a>
+                                    <a href="http://instagram.com">
+                                        <li class="icon instagram">
+                                            <span class="tooltip">Instagram/@pekoOficial</span>
+                                            <span><i class="fab fa-instagram"></i></span>
+                                        </li></a>
+                                    <a href="http://web.whatsapp.com"> <li class="icon whatsapp">
+                                        <span class="tooltip">Whatsapp</span>
+                                        <span><i class="fab fa-whatsapp"></i></span>
+                                    </li></a>
+                                </ul>
+
                             </ul>
                         </div>
+
                         {/* <div className='body'>
                             <div class="compartir">
                                 <div><img src={Avatar} alt="" className='avatar'/></div>
