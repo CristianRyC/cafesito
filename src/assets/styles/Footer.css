@@ -103,6 +103,17 @@ hr {
     font-weight: 700;
 }
 
+/* .avatar{
+    display: flex;
+    position: absolute;
+    left: 44%;
+    margin-top: 15px;
+    width: 40px;
+    border-radius: 50%;
+}
+ */
+
+
 @media (max-width:767px) {
     #footer h5 {
         padding-left: 0;
