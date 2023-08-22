@@ -11,7 +11,6 @@ function LandingBajo() {
         <img src={decoration} className="imgDeco" />
         <div className="fondoimg2" />
       </div>
-
       <div className="td-eu">
         <div className="td-col">
           <div className="td-col-1">
@@ -19,15 +18,11 @@ function LandingBajo() {
             <div className="td-img"><img src={img2} alt="" /></div>
           </div>
         </div>
-
         <div className="td-right">
           <div className="td-title"><p>PEKO CAFES</p></div>
           <div className="td-desc"><p>CONOCE NUESTRA GRAN CANTIDAD DE PRODUCTOS Y LOS DIFERENTES TIPOS DE CAFES DE LAS REGIONES MAS IMPORTANTES DEL PAIS </p></div>
         </div>
       </div>
-
-
-
     </>
   );
 }
